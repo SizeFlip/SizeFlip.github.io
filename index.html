@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convertitore Taglie Internazionale — Da IT a US, UK, FR, DE, JP | SizeFlip</title>
+<meta name="description" content="Converti subito la tua taglia italiana in taglie internazionali: US, UK, Francia, Germania, Giappone. Abbigliamento donna, uomo, bambino e scarpe. Gratis, senza registrazione.">
+<meta name="keywords" content="convertitore taglie, tabella taglie internazionali, taglia italiana in americana, taglia IT in US, conversione taglie abbigliamento, taglia UK, taglia EU, tabella misure internazionali">
+<meta name="google-site-verification" content="fwMlNzu5C--nW0cpZ0EAQirvX9gM70TfGPPZ4cT6i9A">
+<link rel="canonical" href="https://sizeflip.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Convertitore Taglie Internazionale | SizeFlip">
+<meta property="og:description" content="Converti la tua taglia in tutti i sistemi internazionali in un secondo. Donna, uomo, bambino, scarpe.">
+<meta property="og:url" content="https://sizeflip.com/">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "SizeFlip — Convertitore Taglie Internazionale",
+      "url": "https://sizeflip.com",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+      "description": "Converti taglie abbigliamento tra i sistemi IT, EU, US, UK, FR, DE, JP per donna, uomo, bambino e scarpe.",
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1284" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Come si converte la taglia italiana in americana?",
+          "acceptedAnswer": { "@type": "Answer", "text": "IT 40 = US 8, IT 42 = US 10, IT 44 = US 12. Le taglie donna italiane si convertono in americane con una differenza di circa 4." }
+        },
+        {
+          "@type": "Question",
+          "name": "Taglia M italiana a cosa corrisponde in UK?",
+          "acceptedAnswer": { "@type": "Answer", "text": "La taglia M donna italiana (IT 42-44) corrisponde a UK 14-16." }
+        },
+        {
+          "@type": "Question",
+          "name": "Come funzionano le taglie giapponesi?",
+          "acceptedAnswer": { "@type": "Answer", "text": "IT 38 = JP 9, IT 40 = JP 11. Le taglie giapponesi donna usano numeri dispari da 5 a 17." }
+        },
+        {
+          "@type": "Question",
+          "name": "Come convertire la taglia di scarpe da EU a US?",
+          "acceptedAnswer": { "@type": "Answer", "text": "EU 37 = US 6.5, EU 38 = US 7.5, EU 39 = US 8.5 per donna. EU 40 = US 7, EU 42 = US 9 per uomo." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --orange: #FF4D00;
+  --black: #000000;
+  --white: #FFFFFF;
+  --border: 2px solid #000000;
+}
+
+::selection { background: var(--black); color: var(--orange); }
+
+html { font-family: 'Inter', sans-serif; background: var(--orange); color: var(--black); font-size: 16px; scroll-behavior: smooth; }
+body { min-height: 100vh; }
+
+/* ── TYPOGRAPHY ── */
+.display { font-family: 'Archivo Black', sans-serif; text-transform: uppercase; letter-spacing: -0.04em; line-height: 0.87; }
+.mono { font-family: 'Space Mono', monospace; letter-spacing: -0.02em; }
+
+/* ── HEADER ── */
+header {
+  background: var(--black);
+  border-bottom: var(--border);
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  font-size: 22px;
+  color: var(--orange);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-badge {
+  width: 10px; height: 10px;
+  background: var(--orange);
+  border-radius: 50%;
+  animation: spin 12s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header-tag {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: rgba(255,77,0,0.5);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.header-cta {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  color: var(--black);
+  background: var(--orange);
+  border: var(--border);
+  border-color: var(--orange);
+  padding: 7px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  transition: transform 0.15s, background 0.15s, color 0.15s;
+  display: inline-block;
+}
+.header-cta:hover {
+  background: var(--white);
+  color: var(--black);
+  transform: translateX(4px);
+}
+
+/* ── MARQUEE ── */
+.marquee-strip {
+  background: var(--black);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+.marquee-inner {
+  display: inline-flex;
+  gap: 0;
+  animation: marquee 28s linear infinite;
+}
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.marquee-item {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: var(--orange);
+  text-transform: uppercase;
+  padding: 0 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.marquee-sep { color: rgba(255,77,0,0.3); }
+
+/* ── HERO ── */
+.hero {
+  padding: 4rem 1.5rem 3rem;
+  border-bottom: var(--border);
+  position: relative;
+  overflow: hidden;
+}
+.hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 2rem;
+}
+.hero-eyebrow {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.5);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 2px;
+  background: var(--black);
+  flex-shrink: 0;
+}
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 0.87;
+  font-size: clamp(3rem, 8vw, 7rem);
+  color: var(--black);
+}
+.hero-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.hero-stat-n {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: -0.04em;
+  line-height: 0.87;
+  color: var(--black);
+}
+.hero-stat-l {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.5);
+  text-align: right;
+}
+
+/* ── CONVERTER ── */
+.converter-section {
+  background: var(--black);
+  border-bottom: var(--border);
+}
+.converter-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* category tabs */
+.tab-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: var(--border);
+  border-color: rgba(255,255,255,0.15);
+}
+.tab {
+  padding: 1.1rem 0.5rem;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  cursor: pointer;
+  border: none;
+  border-right: 1px solid rgba(255,255,255,0.1);
+  background: none;
+  transition: color 0.12s, background 0.12s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.tab:last-child { border-right: none; }
+.tab-icon { display:block; width:22px; height:22px; margin:0 auto; }
+.tab-icon svg { width:22px; height:22px; display:block; }
+.tab svg { stroke: rgba(255,255,255,0.4); transition: stroke 0.12s; }
+.tab:hover svg { stroke: rgba(255,255,255,0.85); }
+.tab.active svg { stroke: var(--orange); }
+.tab:hover { color: var(--white); background: rgba(255,255,255,0.04); }
+.tab.active {
+  color: var(--orange);
+  background: rgba(255,77,0,0.08);
+  border-bottom: 2px solid var(--orange);
+}
+
+/* controls */
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+@media (max-width: 480px) { .controls { grid-template-columns: 1fr; } }
+.control-field {
+  padding: 1.25rem 1.5rem;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+.control-field:last-child { border-right: none; }
+.field-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 8px;
+  display: block;
+}
+select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  color: var(--white);
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23FF4D00' stroke-width='2' fill='none' stroke-linecap='square'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  transition: border-color 0.12s;
+}
+select:focus { outline: 2px solid var(--orange); border-color: var(--orange); }
+select option { background: #111; }
+
+/* results */
+.results { padding: 0; }
+.results-header {
+  padding: 1.25rem 1.5rem 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+}
+.size-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+.size-pill {
+  padding: 1.5rem 1rem;
+  border-right: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  cursor: pointer;
+  transition: background 0.12s;
+  user-select: none;
+  text-align: center;
+}
+.size-pill:hover { background: rgba(255,255,255,0.05); }
+.size-pill.highlight { background: var(--orange); }
+.size-pill.highlight:hover { background: #e64400; }
+.size-pill .country {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 6px;
+}
+.size-pill.highlight .country { color: rgba(0,0,0,0.6); }
+.size-pill .value {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  color: var(--white);
+}
+.size-pill.highlight .value { color: var(--black); }
+.copy-hint {
+  padding: 0.85rem 1.5rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ── AFFILIAZIONE ── */
+.aff-block {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 1.25rem 1.5rem;
+  background: rgba(255,255,255,0.03);
+}
+.aff-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.aff-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.aff-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border: var(--border);
+  border-color: rgba(255,77,0,0.4);
+  background: transparent;
+  color: var(--orange);
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.12s, color 0.12s, transform 0.12s, border-color 0.12s;
+}
+.aff-btn:hover {
+  background: var(--orange);
+  color: var(--black);
+  border-color: var(--orange);
+  transform: translateX(4px);
+}
+.aff-btn .arrow { font-size: 14px; opacity: 0.6; }
+.aff-disclaimer {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  color: rgba(255,255,255,0.2);
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
+/* ── SKEWED SECTION DIVIDER ── */
+.skew-divider {
+  height: 48px;
+  background: var(--black);
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+  margin-bottom: -1px;
+}
+
+/* ── STATS STRIP ── */
+.stats-strip {
+  background: var(--white);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  padding: 2.5rem 1.5rem;
+}
+.stats-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+@media (max-width: 600px) { .stats-inner { grid-template-columns: 1fr; } }
+.stat-cell {
+  padding: 1.5rem 2rem;
+  border-right: var(--border);
+}
+.stat-cell:last-child { border-right: none; }
+.stat-n {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+.stat-l {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.45);
+  line-height: 1.5;
+}
+
+/* ── FAQ ── */
+.faq-section {
+  background: var(--orange);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  padding: 3rem 1.5rem;
+}
+.faq-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.faq-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: var(--border);
+  padding-bottom: 1rem;
+}
+.faq-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 0.87;
+  color: var(--black);
+}
+details {
+  border: var(--border);
+  border-bottom: none;
+  background: transparent;
+}
+details:last-child { border-bottom: var(--border); }
+summary {
+  padding: 1.1rem 1.25rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: var(--black);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  user-select: none;
+  transition: background 0.12s;
+}
+summary:hover { background: rgba(0,0,0,0.06); }
+summary::after {
+  content: '+';
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--black);
+  font-family: 'Archivo Black', sans-serif;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+details[open] summary { background: var(--black); color: var(--orange); }
+details[open] summary::after { content: '−'; color: var(--orange); }
+details p {
+  padding: 1rem 1.25rem 1.25rem;
+  font-size: 14px;
+  color: var(--black);
+  line-height: 1.65;
+  background: rgba(255,255,255,0.15);
+  border-top: var(--border);
+}
+
+/* ── FOOTER ── */
+footer {
+  background: var(--black);
+  border-top: var(--border);
+  padding: 2rem 1.5rem;
+}
+.footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.footer-logo {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  font-size: 20px;
+  color: var(--orange);
+}
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  text-decoration: none;
+  transition: color 0.12s;
+}
+.footer-links a:hover { color: var(--orange); }
+.footer-copy {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.2);
+  width: 100%;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: 0.5rem;
+  line-height: 1.7;
+}
+
+/* ── TOAST ── */
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--orange);
+  color: var(--black);
+  padding: 10px 20px;
+  border: var(--border);
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  z-index: 999;
+}
+.toast.show { opacity: 1; }
+
+/* ── NO RESULT ── */
+.no-result {
+  padding: 2.5rem;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: rgba(255,255,255,0.3);
+}
+
+@media (max-width: 640px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-stats { align-items: flex-start; flex-direction: row; gap: 2rem; }
+  .size-pill .value { font-size: 1.6rem; }
+  .header-tag { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-inner { animation: none; }
+  .logo-badge { animation: none; }
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="/" class="logo" aria-label="SizeFlip — Convertitore taglie internazionale">
+    <span class="logo-badge" aria-hidden="true"></span>
+    SizeFlip
+  </a>
+  <nav class="header-nav" aria-label="Navigazione principale">
+    <span class="header-tag">IT · EU · US · UK · JP</span>
+    <a href="#converter" class="header-cta">Converti →</a>
+  </nav>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee-strip" aria-hidden="true" role="presentation">
+  <div class="marquee-inner">
+    <span class="marquee-item">Donna <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Uomo <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Bambino <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Scarpe <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → US <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → UK <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → FR <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → DE <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → JP <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Gratis <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Nessuna registrazione <span class="marquee-sep">·</span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="marquee-item">Donna <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Uomo <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Bambino <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Scarpe <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → US <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → UK <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → FR <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → DE <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">IT → JP <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Gratis <span class="marquee-sep">·</span></span>
+    <span class="marquee-item">Nessuna registrazione <span class="marquee-sep">·</span></span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">Convertitore taglie internazionale</p>
+      <h1>La tua<br>taglia,<br>ovunque.</h1>
+    </div>
+    <div class="hero-stats" aria-label="Statistiche">
+      <div>
+        <div class="hero-stat-n" aria-hidden="true">6</div>
+        <div class="hero-stat-l">sistemi<br>di taglia</div>
+      </div>
+      <div>
+        <div class="hero-stat-n" aria-hidden="true">4</div>
+        <div class="hero-stat-l">categorie<br>coperte</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONVERTER -->
+<main>
+<section class="converter-section" id="converter" aria-labelledby="converter-title">
+  <h2 id="converter-title" class="sr-only">Seleziona categoria e taglia per convertire</h2>
+  <div class="converter-wrap">
+
+    <!-- Tabs -->
+    <div class="tab-row" role="tablist" aria-label="Categoria abbigliamento">
+      <button class="tab active" role="tab" aria-selected="true" data-cat="women" onclick="setCategory('women',this)">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 22 22" fill="none" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="5" r="2.2"/><path d="M8 8 L5 14 L8.5 14 L8.5 20 L13.5 20 L13.5 14 L17 14 L14 8 Q11 10.5 8 8Z"/></svg></span>Donna
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="men" onclick="setCategory('men',this)">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 22 22" fill="none" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="5" r="2.2"/><path d="M6 9 L16 9 L14 14 L13 14 L13 20 L9 20 L9 14 L8 14 Z"/></svg></span>Uomo
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="kids" onclick="setCategory('kids',this)">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 22 22" fill="none" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="5.5" r="2.5"/><path d="M7.5 9.5 L14.5 9.5 L13 14 L12 14 L12 20 L10 20 L10 14 L9 14 Z"/><line x1="7.5" y1="9.5" x2="5.5" y2="13"/><line x1="14.5" y1="9.5" x2="16.5" y2="13"/></svg></span>Bambino
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="shoes" onclick="setCategory('shoes',this)">
+        <span class="tab-icon" aria-hidden="true"><svg viewBox="0 0 22 22" fill="none" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" xmlns="http://www.w3.org/2000/svg"><path d="M2 16 L2 13 L9 9 L14 9 L14 11 L20 13 L20 16 Z"/><line x1="9" y1="9" x2="9" y2="16"/></svg></span>Scarpe
+      </button>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="control-field">
+        <label class="field-label" for="sizeSelect">La tua taglia</label>
+        <select id="sizeSelect" onchange="convert()" aria-label="Seleziona taglia italiana"></select>
+      </div>
+      <div class="control-field">
+        <label class="field-label" for="fitSelect">Vestibilità</label>
+        <select id="fitSelect" onchange="convert()" aria-label="Tipo di vestibilità">
+          <option value="standard">Standard</option>
+          <option value="slim">Slim fit</option>
+          <option value="oversized">Oversize</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div id="results" aria-live="polite" aria-label="Risultati conversione taglia"></div>
+
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<section class="stats-strip" aria-labelledby="stats-title">
+  <h2 id="stats-title" class="sr-only">Perché usare SizeFlip</h2>
+  <div class="stats-inner">
+    <div class="stat-cell">
+      <div class="stat-n">78K+</div>
+      <div class="stat-l">ricerche mensili<br>taglie internazionali</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-n">#1</div>
+      <div class="stat-l">motivo di reso:<br>taglia sbagliata</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-n">0€</div>
+      <div class="stat-l">costo, zero<br>registrazione</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" aria-labelledby="faq-title">
+  <div class="faq-inner">
+    <div class="faq-header">
+      <h2 class="faq-title" id="faq-title">Domande<br>sulle taglie</h2>
+    </div>
+
+    <details>
+      <summary>Come si converte la taglia italiana in americana?</summary>
+      <p>Le taglie donna italiane si convertono sottraendo circa 4: IT 40 = US 8, IT 42 = US 10, IT 44 = US 12. Per gli uomini la corrispondenza è diversa: IT 48 = US M, IT 50 = US L. Il converter gestisce automaticamente le differenze tra categorie.</p>
+    </details>
+
+    <details>
+      <summary>Taglia M italiana a che corrisponde in UK?</summary>
+      <p>La taglia M donna italiana (IT 42–44) corrisponde a UK 14–16. Per gli uomini la M italiana equivale a M UK. Scarpe e misure specifiche possono variare per brand — consulta sempre la size guide del sito su cui acquisti.</p>
+    </details>
+
+    <details>
+      <summary>Come funzionano le taglie giapponesi?</summary>
+      <p>Le taglie giapponesi donna usano numeri dispari da 5 a 17: IT 36 = JP 7, IT 38 = JP 9, IT 40 = JP 11. Per uomini e bambini il sistema usa misure in cm di altezza. Le scarpe giapponesi corrispondono quasi al sistema europeo con circa mezzo numero di differenza.</p>
+    </details>
+
+    <details>
+      <summary>Come si convertono le taglie scarpe EU in US?</summary>
+      <p>Donna: EU 37 = US 6.5, EU 38 = US 7.5, EU 39 = US 8.5. Uomo: EU 40 = US 7, EU 42 = US 9, EU 44 = US 11. Le UK scarpe differiscono di circa 0.5–1 rispetto alle US. Seleziona "Scarpe" nel converter per vedere tutte le equivalenze.</p>
+    </details>
+
+    <details>
+      <summary>Perché le taglie variano tra brand diversi?</summary>
+      <p>Ogni brand adotta le proprie misure interne. Una S di Zara può corrispondere a una XS di H&M o una M di un brand americano. I sistemi di taglia internazionali offrono una base, ma per acquisti specifici consulta sempre la size guide del brand.</p>
+    </details>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo" aria-label="SizeFlip">SizeFlip</div>
+    <nav class="footer-links" aria-label="Link footer">
+      <a href="/privacy">Privacy</a>
+      <a href="/termini">Termini</a>
+      <a href="/contatti">Contatti</a>
+      <a href="/guida-taglie">Guide taglie</a>
+    </nav>
+    <p class="footer-copy">
+      © 2026 SizeFlip · Dati aggiornati ogni stagione · Alcuni link sono affiliati: se acquisti tramite essi riceviamo una commissione senza costi aggiuntivi per te. · Non affiliato a nessun brand.
+    </p>
+  </div>
+</footer>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<style>.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}</style>
+
+<script>
+const DATA = {
+  women: {
+    sizes: [
+      { it:'34', eu:'34', us:'2',  uk:'6',  fr:'34', de:'34', jp:'5',  label:'34 / XS' },
+      { it:'36', eu:'36', us:'4',  uk:'8',  fr:'36', de:'36', jp:'7',  label:'36 / XS-S' },
+      { it:'38', eu:'38', us:'6',  uk:'10', fr:'38', de:'38', jp:'9',  label:'38 / S' },
+      { it:'40', eu:'40', us:'8',  uk:'12', fr:'40', de:'40', jp:'11', label:'40 / M' },
+      { it:'42', eu:'42', us:'10', uk:'14', fr:'42', de:'42', jp:'13', label:'42 / M-L' },
+      { it:'44', eu:'44', us:'12', uk:'16', fr:'44', de:'44', jp:'15', label:'44 / L' },
+      { it:'46', eu:'46', us:'14', uk:'18', fr:'46', de:'46', jp:'17', label:'46 / XL' },
+      { it:'48', eu:'48', us:'16', uk:'20', fr:'48', de:'48', jp:'—',  label:'48 / XXL' },
+      { it:'50', eu:'50', us:'18', uk:'22', fr:'50', de:'50', jp:'—',  label:'50 / 3XL' },
+    ]
+  },
+  men: {
+    sizes: [
+      { it:'44', eu:'44', us:'XS',  uk:'XS',  fr:'44', de:'44', jp:'S',   label:'44 / XS' },
+      { it:'46', eu:'46', us:'S',   uk:'S',   fr:'46', de:'46', jp:'M',   label:'46 / S' },
+      { it:'48', eu:'48', us:'M',   uk:'M',   fr:'48', de:'48', jp:'M',   label:'48 / M' },
+      { it:'50', eu:'50', us:'L',   uk:'L',   fr:'50', de:'50', jp:'L',   label:'50 / L' },
+      { it:'52', eu:'52', us:'XL',  uk:'XL',  fr:'52', de:'52', jp:'XL',  label:'52 / XL' },
+      { it:'54', eu:'54', us:'2XL', uk:'2XL', fr:'54', de:'54', jp:'2XL', label:'54 / 2XL' },
+      { it:'56', eu:'56', us:'3XL', uk:'3XL', fr:'56', de:'56', jp:'3XL', label:'56 / 3XL' },
+      { it:'58', eu:'58', us:'4XL', uk:'4XL', fr:'58', de:'58', jp:'4XL', label:'58 / 4XL' },
+    ]
+  },
+  kids: {
+    sizes: [
+      { it:'2A/92',   eu:'92',  us:'2T',  uk:'1-2Y',   fr:'2 ans',  de:'92',  jp:'90',  label:'2 anni / 92cm' },
+      { it:'3A/98',   eu:'98',  us:'3T',  uk:'2-3Y',   fr:'3 ans',  de:'98',  jp:'95',  label:'3 anni / 98cm' },
+      { it:'4A/104',  eu:'104', us:'4T',  uk:'3-4Y',   fr:'4 ans',  de:'104', jp:'100', label:'4 anni / 104cm' },
+      { it:'5A/110',  eu:'110', us:'5',   uk:'4-5Y',   fr:'5 ans',  de:'110', jp:'110', label:'5 anni / 110cm' },
+      { it:'6A/116',  eu:'116', us:'6',   uk:'5-6Y',   fr:'6 ans',  de:'116', jp:'115', label:'6 anni / 116cm' },
+      { it:'8A/128',  eu:'128', us:'8',   uk:'7-8Y',   fr:'8 ans',  de:'128', jp:'125', label:'8 anni / 128cm' },
+      { it:'10A/140', eu:'140', us:'10',  uk:'9-10Y',  fr:'10 ans', de:'140', jp:'140', label:'10 anni / 140cm' },
+      { it:'12A/152', eu:'152', us:'12',  uk:'11-12Y', fr:'12 ans', de:'152', jp:'150', label:'12 anni / 152cm' },
+      { it:'14A/164', eu:'164', us:'14',  uk:'13-14Y', fr:'14 ans', de:'164', jp:'160', label:'14 anni / 164cm' },
+    ]
+  },
+  shoes: {
+    sizes: [
+      { it:'35', eu:'35', us_w:'4.5',  us_m:'3',   uk_w:'2.5', uk_m:'2.5', jp:'22',   label:'35' },
+      { it:'36', eu:'36', us_w:'5.5',  us_m:'4',   uk_w:'3.5', uk_m:'3',   jp:'23',   label:'36' },
+      { it:'37', eu:'37', us_w:'6.5',  us_m:'5',   uk_w:'4.5', uk_m:'4',   jp:'23.5', label:'37' },
+      { it:'38', eu:'38', us_w:'7.5',  us_m:'6',   uk_w:'5.5', uk_m:'5',   jp:'24',   label:'38' },
+      { it:'39', eu:'39', us_w:'8.5',  us_m:'7',   uk_w:'6.5', uk_m:'6',   jp:'25',   label:'39' },
+      { it:'40', eu:'40', us_w:'9.5',  us_m:'7.5', uk_w:'7',   uk_m:'6.5', jp:'25.5', label:'40' },
+      { it:'41', eu:'41', us_w:'10.5', us_m:'8.5', uk_w:'7.5', uk_m:'7.5', jp:'26',   label:'41' },
+      { it:'42', eu:'42', us_w:'11',   us_m:'9',   uk_w:'8',   uk_m:'8',   jp:'27',   label:'42' },
+      { it:'43', eu:'43', us_w:'12',   us_m:'10',  uk_w:'9',   uk_m:'9',   jp:'27.5', label:'43' },
+      { it:'44', eu:'44', us_w:'—',    us_m:'11',  uk_w:'—',   uk_m:'10',  jp:'28',   label:'44' },
+      { it:'45', eu:'45', us_w:'—',    us_m:'12',  uk_w:'—',   uk_m:'11',  jp:'29',   label:'45' },
+      { it:'46', eu:'46', us_w:'—',    us_m:'13',  uk_w:'—',   uk_m:'12',  jp:'29.5', label:'46' },
+    ]
+  }
+};
+
+const AFF = {
+  women: [
+    { label: 'Zalando', url: 'https://www.awin1.com/cread.php?awinmid=14171&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.zalando.it%2Fabbigliamento-donna%2F', icon: '↗' },
+    { label: 'ASOS',    url: 'https://www.awin1.com/cread.php?awinmid=8589&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.asos.com%2Fit%2Fdonne%2F', icon: '↗' },
+    { label: 'H&M',     url: 'https://www.awin1.com/cread.php?awinmid=5820&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww2.hm.com%2Fit_it%2Fdonna.html', icon: '↗' }
+  ],
+  men: [
+    { label: 'Zalando', url: 'https://www.awin1.com/cread.php?awinmid=14171&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.zalando.it%2Fabbigliamento-uomo%2F', icon: '↗' },
+    { label: 'ASOS',    url: 'https://www.awin1.com/cread.php?awinmid=8589&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.asos.com%2Fit%2Fuomini%2F', icon: '↗' },
+    { label: 'H&M',     url: 'https://www.awin1.com/cread.php?awinmid=5820&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww2.hm.com%2Fit_it%2Fuomo.html', icon: '↗' }
+  ],
+  kids: [
+    { label: 'Zalando bambino', url: 'https://www.awin1.com/cread.php?awinmid=14171&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.zalando.it%2Fbambino%2F', icon: '↗' },
+    { label: 'H&M bambino',     url: 'https://www.awin1.com/cread.php?awinmid=5820&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww2.hm.com%2Fit_it%2Fbambini.html', icon: '↗' },
+    { label: 'Amazon moda',     url: 'https://www.amazon.it/s?k=abbigliamento+bambino&tag=YOUR_AMAZON_TAG', icon: '↗' }
+  ],
+  shoes: [
+    { label: 'Zalando scarpe', url: 'https://www.awin1.com/cread.php?awinmid=14171&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.zalando.it%2Fscarpe%2F', icon: '↗' },
+    { label: 'ASOS scarpe',    url: 'https://www.awin1.com/cread.php?awinmid=8589&awinaffid=YOUR_AWIN_ID&ued=https%3A%2F%2Fwww.asos.com%2Fit%2Fscarpe%2F', icon: '↗' },
+    { label: 'Amazon scarpe',  url: 'https://www.amazon.it/s?k=scarpe&tag=YOUR_AMAZON_TAG', icon: '↗' }
+  ]
+};
+
+let currentCat = 'women';
+
+function setCategory(cat, btn) {
+  currentCat = cat;
+  document.querySelectorAll('.tab').forEach(t => {
+    t.classList.remove('active');
+    t.setAttribute('aria-selected','false');
+  });
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected','true');
+  populateSizes();
+  convert();
+}
+
+function populateSizes() {
+  const sel = document.getElementById('sizeSelect');
+  sel.innerHTML = DATA[currentCat].sizes.map((s,i) =>
+    `<option value="${i}">${s.label || s.it}</option>`
+  ).join('');
+}
+
+function buildAffBlock(cat) {
+  const links = AFF[cat] || [];
+  if (!links.length) return '';
+  const btns = links.map(l => `
+    <a class="aff-btn"
+       href="${l.url}"
+       target="_blank"
+       rel="noopener sponsored"
+       aria-label="${l.label} (link affiliato, apre in nuova finestra)">
+      ${l.label} <span class="arrow" aria-hidden="true">${l.icon}</span>
+    </a>
+  `).join('');
+  return `
+    <div class="aff-block">
+      <span class="aff-label">Acquista con questa taglia</span>
+      <div class="aff-links">${btns}</div>
+      <p class="aff-disclaimer">Link affiliati — commissione senza costi aggiuntivi per te</p>
+    </div>
+  `;
+}
+
+function convert() {
+  const idx = parseInt(document.getElementById('sizeSelect').value);
+  const fit = document.getElementById('fitSelect').value;
+  const s = DATA[currentCat].sizes[idx];
+  const resultsEl = document.getElementById('results');
+
+  if (!s) {
+    resultsEl.innerHTML = '<div class="no-result">Seleziona una taglia</div>';
+    return;
+  }
+
+  const fitNote = fit === 'slim' ? ' · slim fit' : fit === 'oversized' ? ' · oversize' : '';
+  let pills = [];
+
+  if (currentCat === 'shoes') {
+    pills = [
+      { country: 'EU/IT', value: s.eu, src: true },
+      { country: 'US W',  value: s.us_w },
+      { country: 'US M',  value: s.us_m },
+      { country: 'UK W',  value: s.uk_w },
+      { country: 'UK M',  value: s.uk_m },
+      { country: 'JP cm', value: s.jp },
+    ];
+  } else {
+    pills = [
+      { country: 'IT/EU',    value: s.eu, src: true },
+      { country: 'US',       value: s.us },
+      { country: 'UK',       value: s.uk },
+      { country: 'FR',       value: s.fr },
+      { country: 'DE',       value: s.de },
+      { country: 'JP',       value: s.jp },
+    ];
+  }
+
+  const pillsHTML = pills.map(p => `
+    <div class="size-pill${p.src ? ' highlight' : ''}"
+         onclick="copyVal('${p.value}','${p.country}')"
+         role="button"
+         tabindex="0"
+         aria-label="${p.country}: ${p.value}. Clicca per copiare"
+         onkeydown="if(event.key==='Enter'||event.key===' ')copyVal('${p.value}','${p.country}')">
+      <div class="country">${p.country}</div>
+      <div class="value">${p.value}</div>
+    </div>
+  `).join('');
+
+  resultsEl.innerHTML = `
+    <div class="results-header">Risultati${fitNote}</div>
+    <div class="size-grid">${pillsHTML}</div>
+    <p class="copy-hint">Tocca una taglia per copiarla negli appunti</p>
+    ${buildAffBlock(currentCat)}
+  `;
+}
+
+function copyVal(val, country) {
+  if (val === '—') return;
+  navigator.clipboard.writeText(val).catch(() => {});
+  showToast(`${country}: ${val} copiato`);
+}
+
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+populateSizes();
+convert();
+</script>
+
+</body>
+</html>
